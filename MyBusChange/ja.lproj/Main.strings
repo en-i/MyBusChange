@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "バス停検索"; ObjectID = "3S6-yf-1gZ"; */
+"3S6-yf-1gZ.normalTitle" = "バス停検索";
+
+/* Class = "UILabel"; text = "バス停を探しているなら\n「バス停検索」\n発車時刻を探しているなら\n「時刻検索」\nをクリック！"; ObjectID = "Q4s-Z2-fc5"; */
+"Q4s-Z2-fc5.text" = "バス停を探しているなら\n「バス停検索」\n発車時刻を探しているなら\n「時刻検索」\nをクリック！";
+
+/* Class = "UIButton"; normalTitle = "時刻検索"; ObjectID = "jkC-Hs-cqr"; */
+"jkC-Hs-cqr.normalTitle" = "時刻検索";

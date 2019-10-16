@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BC6D901BC774EA64CC53BA4 /* Pods_MyBusChange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61D55B40CA93716B317F4CBF /* Pods_MyBusChange.framework */; };
+		DC168A5D231671BC008DC79B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC168A5C231671BC008DC79B /* AppDelegate.swift */; };
+		DC168A5F231671BC008DC79B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC168A5E231671BC008DC79B /* ViewController.swift */; };
+		DC168A62231671BC008DC79B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC168A60231671BC008DC79B /* Main.storyboard */; };
+		DC168A64231671BE008DC79B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC168A63231671BE008DC79B /* Assets.xcassets */; };
+		DC8710262331FC060095FB5E /* samplebusstop.csv in Resources */ = {isa = PBXBuildFile; fileRef = DC8710252331FC060095FB5E /* samplebusstop.csv */; };
+		DC9C6B0C231FBF6C007415F7 /* WeekdaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C6B0B231FBF6C007415F7 /* WeekdaysViewController.swift */; };
+		DC9C6B0E231FD975007415F7 /* SaturdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C6B0D231FD975007415F7 /* SaturdayViewController.swift */; };
+		DC9C6B10231FE2DF007415F7 /* SundayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C6B0F231FE2DF007415F7 /* SundayViewController.swift */; };
+		DCA5B3CF2321242100653E5D /* PlanAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5B3CE2321242100653E5D /* PlanAddViewController.swift */; };
+		DCA5B3D123213FC200653E5D /* PlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA5B3D023213FC200653E5D /* PlanViewController.swift */; };
+		DCF3852F233632B400AF9108 /* BusSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF3852E233632B400AF9108 /* BusSearchViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29E9AEAA2190D2095800E4F3 /* Pods-MyBusChange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBusChange.release.xcconfig"; path = "Target Support Files/Pods-MyBusChange/Pods-MyBusChange.release.xcconfig"; sourceTree = "<group>"; };
+		61D55B40CA93716B317F4CBF /* Pods_MyBusChange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyBusChange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6E25C57595B4DB5674BEC7 /* Pods-MyBusChange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBusChange.debug.xcconfig"; path = "Target Support Files/Pods-MyBusChange/Pods-MyBusChange.debug.xcconfig"; sourceTree = "<group>"; };
+		DC168A59231671BC008DC79B /* MyBusChange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBusChange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC168A5C231671BC008DC79B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC168A5E231671BC008DC79B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC168A61231671BC008DC79B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC168A63231671BE008DC79B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC168A68231671BE008DC79B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC8710252331FC060095FB5E /* samplebusstop.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = samplebusstop.csv; sourceTree = "<group>"; };
+		DC9C6B0B231FBF6C007415F7 /* WeekdaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdaysViewController.swift; sourceTree = "<group>"; };
+		DC9C6B0D231FD975007415F7 /* SaturdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaturdayViewController.swift; sourceTree = "<group>"; };
+		DC9C6B0F231FE2DF007415F7 /* SundayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SundayViewController.swift; sourceTree = "<group>"; };
+		DC9FFEAA231BB18F00B47136 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		DCA5B3CE2321242100653E5D /* PlanAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanAddViewController.swift; sourceTree = "<group>"; };
+		DCA5B3D023213FC200653E5D /* PlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanViewController.swift; sourceTree = "<group>"; };
+		DCF3852E233632B400AF9108 /* BusSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusSearchViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC168A56231671BC008DC79B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BC6D901BC774EA64CC53BA4 /* Pods_MyBusChange.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		247FF03C8BC0DF25BF90E99D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC6E25C57595B4DB5674BEC7 /* Pods-MyBusChange.debug.xcconfig */,
+				29E9AEAA2190D2095800E4F3 /* Pods-MyBusChange.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5B2202943CE4ECED31FAF060 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61D55B40CA93716B317F4CBF /* Pods_MyBusChange.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC168A50231671BC008DC79B = {
+			isa = PBXGroup;
+			children = (
+				DC168A5B231671BC008DC79B /* MyBusChange */,
+				DC168A5A231671BC008DC79B /* Products */,
+				247FF03C8BC0DF25BF90E99D /* Pods */,
+				5B2202943CE4ECED31FAF060 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC168A5A231671BC008DC79B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC168A59231671BC008DC79B /* MyBusChange.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC168A5B231671BC008DC79B /* MyBusChange */ = {
+			isa = PBXGroup;
+			children = (
+				DC8710252331FC060095FB5E /* samplebusstop.csv */,
+				DC168A5C231671BC008DC79B /* AppDelegate.swift */,
+				DC168A60231671BC008DC79B /* Main.storyboard */,
+				DC168A5E231671BC008DC79B /* ViewController.swift */,
+				DCF3852E233632B400AF9108 /* BusSearchViewController.swift */,
+				DC9C6B0B231FBF6C007415F7 /* WeekdaysViewController.swift */,
+				DC9C6B0D231FD975007415F7 /* SaturdayViewController.swift */,
+				DC9C6B0F231FE2DF007415F7 /* SundayViewController.swift */,
+				DCA5B3CE2321242100653E5D /* PlanAddViewController.swift */,
+				DCA5B3D023213FC200653E5D /* PlanViewController.swift */,
+				DC168A63231671BE008DC79B /* Assets.xcassets */,
+				DC168A68231671BE008DC79B /* Info.plist */,
+			);
+			path = MyBusChange;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC168A58231671BC008DC79B /* MyBusChange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC168A6B231671BE008DC79B /* Build configuration list for PBXNativeTarget "MyBusChange" */;
+			buildPhases = (
+				97341B74AE3BB6820D33F017 /* [CP] Check Pods Manifest.lock */,
+				DC168A55231671BC008DC79B /* Sources */,
+				DC168A56231671BC008DC79B /* Frameworks */,
+				DC168A57231671BC008DC79B /* Resources */,
+				AA8A0E6449049718FA6E2D73 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyBusChange;
+			productName = MyBusChange;
+			productReference = DC168A59231671BC008DC79B /* MyBusChange.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC168A51231671BC008DC79B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Swift-Beginners";
+				TargetAttributes = {
+					DC168A58231671BC008DC79B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = DC168A54231671BC008DC79B /* Build configuration list for PBXProject "MyBusChange" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = DC168A50231671BC008DC79B;
+			productRefGroup = DC168A5A231671BC008DC79B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC168A58231671BC008DC79B /* MyBusChange */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC168A57231671BC008DC79B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8710262331FC060095FB5E /* samplebusstop.csv in Resources */,
+				DC168A64231671BE008DC79B /* Assets.xcassets in Resources */,
+				DC168A62231671BC008DC79B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97341B74AE3BB6820D33F017 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyBusChange-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA8A0E6449049718FA6E2D73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyBusChange/Pods-MyBusChange-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyBusChange/Pods-MyBusChange-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyBusChange/Pods-MyBusChange-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC168A55231671BC008DC79B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9C6B10231FE2DF007415F7 /* SundayViewController.swift in Sources */,
+				DC168A5F231671BC008DC79B /* ViewController.swift in Sources */,
+				DC9C6B0E231FD975007415F7 /* SaturdayViewController.swift in Sources */,
+				DCA5B3CF2321242100653E5D /* PlanAddViewController.swift in Sources */,
+				DCA5B3D123213FC200653E5D /* PlanViewController.swift in Sources */,
+				DCF3852F233632B400AF9108 /* BusSearchViewController.swift in Sources */,
+				DC168A5D231671BC008DC79B /* AppDelegate.swift in Sources */,
+				DC9C6B0C231FBF6C007415F7 /* WeekdaysViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC168A60231671BC008DC79B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC168A61231671BC008DC79B /* Base */,
+				DC9FFEAA231BB18F00B47136 /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC168A69231671BE008DC79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC168A6A231671BE008DC79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC168A6C231671BE008DC79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6E25C57595B4DB5674BEC7 /* Pods-MyBusChange.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XTTKXXA2TB;
+				INFOPLIST_FILE = MyBusChange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icloud.templebond.MyBusChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC168A6D231671BE008DC79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E9AEAA2190D2095800E4F3 /* Pods-MyBusChange.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XTTKXXA2TB;
+				INFOPLIST_FILE = MyBusChange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icloud.templebond.MyBusChange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC168A54231671BC008DC79B /* Build configuration list for PBXProject "MyBusChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC168A69231671BE008DC79B /* Debug */,
+				DC168A6A231671BE008DC79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC168A6B231671BE008DC79B /* Build configuration list for PBXNativeTarget "MyBusChange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC168A6C231671BE008DC79B /* Debug */,
+				DC168A6D231671BE008DC79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC168A51231671BC008DC79B /* Project object */;
+}
